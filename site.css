@@ -60,13 +60,15 @@ font-family: "source-sans-pro";}
   background-size: cover;
 	
 }
-#aboutme h1 {font-size: 60px;}
+#aboutme h1 {font-size: 60px;
+font-family: 'Brandon Grotesque Regular';}
 
 #aboutme p{padding-top: 1%;
+	font-family: 'Brandon Grotesque Regular';
 	width:40%;
 	display:block;
 	margin:auto;
-	font-weight: bold;
+	
 	background-color: rgba(229, 229, 229, 0.8);
 	
 }
@@ -88,9 +90,7 @@ font-family: "source-sans-pro";}
     height: 100vh;
 	
 }
-.transp{
-	
-}
+
 #portfolio {
 	background-color: rgba(229, 229, 229, 0.8);
 	font-family: "source-sans-pro";
