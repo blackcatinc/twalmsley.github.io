@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+  <nav class="navbar  bg-blue fixed-top" width="100%">
+    <a class="navbar-brand" href="#">TW</a>
+    <div id="navbutton" class="pull-right">
+      <button class="nav-item btn-primary nav-btn btn-lg btn1  "> <a href="#" >Portfolio</a></button>
+      <button class="nav-item btn-primary nav-btn btn-lg btn2 "> <a href="#" >Contact</a></button>
+    </div>
+  </nav>
+  
+    <div class="intro row">
+      <div class="intro-text col-xs-2">
+        <h1>Hi, I'm Toby </h1>
+      <h4>Third Year IT student Majoring in Interactive Media at University of Newcastle. Experience in front and back end web design as well as video and image editing. Currently Looking for entry level jobs within the IT Industry.</h4>
+        <hr>
+        <h5>  <a href="#">Contact</a>  
+              <a href="#">Portfolio</a>  
+              <a href="#">To Bottom</a>     
+       </h5>
+      </div>
+      <img src=https://scontent.fsyd3-1.fna.fbcdn.net/v/t1.0-9/36948421_1865041663558827_2299164244874100736_n.jpg?_nc_cat=0&oh=3fd246af904c3c0db21f370b6f1f2f24&oe=5BD9E4F1 class="img-fluid img-circle img1 col-xs-2"
+    </div>
+      
+      
+
+</body>
+    
+    
+    </html>

@@ -1,0 +1,206 @@
+body {
+  
+   background: url(IMG_0349.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-bottom: 10%;
+    height: 100%;
+	width: 100%;
+}
+
+.title{
+  text-align: center;
+}
+
+.intro {
+  background-color: #e5e5e5 ;
+	  background: url(IMG_0349.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  padding-bottom:20px;
+}
+
+.intro-text a{
+	color:#475b63;
+	
+}
+
+.intro-text a:hover {
+	font-weight: bold;
+	color:#475b63;
+	text-decoration: none;
+}
+
+.intro-text{
+  padding-top:10%;
+  height: 100vh;
+  width:100%;
+  text-align:center;
+font-family: "source-sans-pro";}
+
+.about-me-text{
+	
+	height: 100vh;
+  
+  text-align:center;
+}
+
+#aboutme{
+	margin-top:21%;
+	font-family: "source-sans-pro";
+	  background: url(IMG_0349.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+#aboutme h1 {font-size: 60px;}
+
+#aboutme p{padding-top: 1%;
+	width:40%;
+	display:block;
+	margin:auto;
+	font-weight: bold;
+	background-color: rgba(229, 229, 229, 0.8);
+	
+}
+
+.port{
+    height: 100vh;
+}
+
+.about{
+	margin-top: 15%;
+   margin-left:26%;
+   width:23%;
+	height: 100vh;
+ 
+}
+
+.work{
+    padding-bottom: 3%;
+    height: 100vh;
+	
+}
+.transp{
+	
+}
+#portfolio {
+	background-color: rgba(229, 229, 229, 0.8);
+	font-family: "source-sans-pro";
+	 background: url(IMG_0349.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#portfolio h1 {font-size: 60px;}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+	 display:block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+	margin-top: 5%;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageFade{
+	 opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container1{
+	 position: relative;
+    width: 100%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image {
+  opacity: 0.5;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #97f8f3;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.div2{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footer{
+    position: fixed;
+    font-size: 20px;
+    bottom: 0;
+	font-weight: bold;
+    right: 0;
+}
+
+body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
