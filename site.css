@@ -174,7 +174,7 @@ font-family: 'Brandon Grotesque Regular';}
     right: 0;
 }
 
-body {
+.intro {
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
